@@ -1,0 +1,8 @@
+{
+	"agent": {
+		"metrics_collection_interval": 60,
+		"region": "ap-southeast-1",
+		"logfile": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log",
+		"debug": true
+	}
+}
