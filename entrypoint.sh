@@ -3,7 +3,5 @@
 # Enclave startup script
 #
 
-cd /cloudwatch-enclave
-
-echo -n "Start CloudWatch agent, Nginx and then Flask app      "
+echo -n "Start CloudWatch agent      "
 /opt/aws/amazon-cloudwatch-agent/bin/start-amazon-cloudwatch-agent
